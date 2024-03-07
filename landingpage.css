@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+}
+.section{
+    width:100%;
+    min-height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210408/pngtree-white-abstract-vector-web-background-design-image_597636.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.hero{
+    width:100%;
+    padding:0px 60px;
+    position: relative;
+}
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding:0px 10px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    color:blue;
+    transition: 0.5s ease;
+}
+.content{
+    display:flex;
+    align-items:center ;
+    flex-direction: column;
+    top: 280px;
+    left:60px;
+    position: absolute;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 800;
+    color:black;
+    text-transform: uppercase;
+}
+.content p{
+    font-weight: 400;
+    font-size:32px ;
+    color:rgb(31, 34, 22);
+}
+.content.button{
+    text-decoration: none;
+    margin:25px 0px;
+    padding:10px 15px;
+    color:#fff;
+    text-transform: uppercase;
+    background: color #6d6d6d;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+}
+.content .button:hover{
+    background-color:grey;
+    transition: 0.5s ease;
+
+}
